@@ -142,7 +142,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
         ("/cv/", "CV"),
-        ("/projects/",'Projects'),
+        ("/pages/projects/",'Projects'),
     ),
 }
 
