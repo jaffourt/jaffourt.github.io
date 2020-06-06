@@ -100,6 +100,7 @@ TRANSLATIONS = {
     DEFAULT_LANG: "",
     # Example for another language:
     # "es": "./es",
+    "fr": "./fr"
 }
 
 # What will translated input files be named like?
@@ -140,8 +141,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("/cv/", "CV"),
+        ("/projects/",'Projects'),
     ),
 }
 

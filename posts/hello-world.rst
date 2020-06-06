@@ -7,4 +7,4 @@
 .. description: 
 .. type: text
 
-My name is Josef Affourtit and I am interested in physics, neuroscience, cognition, language, ML, engineering, playing hockey, and building legos.
+My name is Josef Affourtit and my primary academic interests include physics, neuroscience, cognition, language, ML, and engineering.
