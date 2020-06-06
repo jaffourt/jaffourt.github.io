@@ -1,6 +1,6 @@
-.. title: Homepage
-.. slug: homepage
-.. date: 2020-06-06 12:21:21 UTC-04:00
+.. title: Index
+.. slug: index
+.. date: 2020-06-06 12:55:04 UTC-04:00
 .. tags: 
 .. category: 
 .. link: 
