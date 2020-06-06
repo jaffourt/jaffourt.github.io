@@ -7,4 +7,4 @@
 .. description: 
 .. type: text
 
-My name is Josef Affourtit and my primary academic interests include physics, neuroscience, cognition, language, ML, and engineering.
+Hello World! My name is Josef Affourtit and I am currently a research associate at MIT in Ev Fedorenko's group. My primary academic interests include physics, neuroscience, cognition, language, and ML.
