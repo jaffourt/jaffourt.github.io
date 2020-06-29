@@ -1,3 +1,4 @@
+<!--
 .. title: My favorite checkmate!
 .. slug: my-favorite-checkmate
 .. date: 2020-06-29 19:18:25 UTC-04:00
@@ -6,5 +7,6 @@
 .. link: 
 .. description: 
 .. type: text
+-->
 
-<img src="/misc_fun/board.gif" hspace="10" vspace="10">
+<img src="misc_fun/board.gif" hspace="10" vspace="10">
