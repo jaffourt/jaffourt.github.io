@@ -7,3 +7,4 @@
 .. description: 
 .. type: text
 
+<img src="/misc_fun/board.gif" hspace="10" vspace="10">
