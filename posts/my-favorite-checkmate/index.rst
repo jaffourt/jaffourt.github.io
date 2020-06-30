@@ -9,4 +9,5 @@
 .. type: text
 -->
 
-image:: /images/board.gif
+.. image:: /images/board.gif
+	:width: 200px
