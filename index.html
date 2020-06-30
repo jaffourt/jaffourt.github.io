@@ -72,11 +72,24 @@
         </div>
     </header><div class="e-content entry-content">
     <div>
-<p>This is a cool algorithm that I like. Potential uses abound!</p>
-<pre class="code python"><a name="rest_code_ce694ca452d04b79a418471f18b7daee-1"></a><span class="kn">from</span> <span class="nn">nikola.filters</span> <span class="kn">import</span> <span class="n">runinplace</span>
-<a name="rest_code_ce694ca452d04b79a418471f18b7daee-2"></a><span class="k">def</span> <span class="nf">yui_compressor</span><span class="p">(</span><span class="n">infile</span><span class="p">):</span>
-<a name="rest_code_ce694ca452d04b79a418471f18b7daee-3"></a>   <span class="k">return</span> <span class="n">runinplace</span><span class="p">(</span><span class="sa">r</span><span class="s1">'yui-compressor --nomunge %1 -o %2'</span><span class="p">,</span> <span class="n">infile</span><span class="p">)</span>
+<p>This is a cool algorithm that I like. It is similar to a genetic algorithm but rather than updating the genes, you update the environment!</p>
+<pre class="code python"><a name="rest_code_e4384a96e681491eb98d4ccf6c907eb5-1"></a><span class="n">procedure</span> <span class="n">ACO_MetaHeuristic</span> <span class="ow">is</span>
+<a name="rest_code_e4384a96e681491eb98d4ccf6c907eb5-2"></a>    <span class="k">while</span> <span class="n">not_termination</span> <span class="n">do</span>
+<a name="rest_code_e4384a96e681491eb98d4ccf6c907eb5-3"></a>        <span class="n">generateSolutions</span><span class="p">()</span>
+<a name="rest_code_e4384a96e681491eb98d4ccf6c907eb5-4"></a>        <span class="n">daemonActions</span><span class="p">()</span>
+<a name="rest_code_e4384a96e681491eb98d4ccf6c907eb5-5"></a>        <span class="n">pheromoneUpdate</span><span class="p">()</span>
+<a name="rest_code_e4384a96e681491eb98d4ccf6c907eb5-6"></a>    <span class="n">repeat</span>
+<a name="rest_code_e4384a96e681491eb98d4ccf6c907eb5-7"></a><span class="n">end</span> <span class="n">procedure</span>
 </pre>
+<p>The pheromoneUpdate() updates the environment, which optimizes other agents ability to solve some problem in said environment. The agents evaluate potential solutions, or rather perform an action governed by a probabilty distribution across available states.</p>
+<div class="math">
+\begin{equation*}
+p^{k}_{xy} = \frac{(\tau^{\alpha}_{xy})(\eta^{\beta}_{xy})}{\sum_{z \in allowed_{x}}{(\tau^{\alpha}_{xy})(\eta^{\beta}_{xy})}}
+\end{equation*}
+</div>
+<p>Where <span class="math">\(\tau_{xy}\)</span> is the amount of pheromone between two states, <span class="math">\(x\)</span> and <span class="math">\(y\)</span>, and <span class="math">\(0&lt;\alpha\)</span> controls the influence of of <span class="math">\(\tau_{xy}\)</span>. I like to think of this as an environmental factor that is uncontrollable to the agents. Maybe it is a windy day or it's raining, so the pheromones are difficult to detect!</p>
+<p>And <span class="math">\(\eta_{xy}\)</span> is the desirability of a state transition between <span class="math">\(x\)</span> and <span class="math">\(y\)</span> (a priori knowledge of the states), and <span class="math">\(0&lt;\beta\)</span> controls the influence of of <span class="math">\(\eta_{xy}\)</span>. Water is pretty undesirable to an agent without gills!</p>
+<p>More on this soon...</p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/my-favorite-checkmate/" class="u-url">My favorite checkmate!</a></h1>
@@ -112,9 +125,11 @@
 
 
 
-
-
-        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
+        </script>
+</div>
         <!--End of body content-->
 
         <footer id="footer">
