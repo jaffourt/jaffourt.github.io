@@ -7,4 +7,6 @@
 .. description: 
 .. type: text
 
-Here is my cv.
+Here is my cv (created using: `Awesome-CV <https://github.com/posquit0/Awesome-CV>`__).
+
+.. image:: /portfolio/resume.png
