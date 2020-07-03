@@ -9,8 +9,6 @@
 .. has_math: yes
 
 
-This is a cool algorithm that I like. It is similar to a genetic algorithm but rather than updating the genes, you update the environment!
-
 .. code-block:: python
 		
    procedure ACO_MetaHeuristic is
@@ -26,8 +24,8 @@ The pheromoneUpdate() updates the environment, which optimizes other agents abil
 .. math::
    p^{k}_{xy} = \frac{(\tau^{\alpha}_{xy})(\eta^{\beta}_{xy})}{\sum_{z \in allowed_{x}}{(\tau^{\alpha}_{xy})(\eta^{\beta}_{xy})}}
 
-Where :math:`\tau_{xy}` is the amount of pheromone between two states, :math:`x` and :math:`y`, and :math:`0<\alpha` controls the influence of of :math:`\tau_{xy}`. I like to think of this as an environmental factor that is uncontrollable to the agents. Maybe it is a windy day or it's raining, so the pheromones are difficult to detect!
+Where :math:`\tau_{xy}` is the amount of pheromone between two states, :math:`x` and :math:`y`, and :math:`0<\alpha` controls the influence of of :math:`\tau_{xy}`. 
 
-And :math:`\eta_{xy}` is the desirability of a state transition between :math:`x` and :math:`y` (a priori knowledge of the states), and :math:`0<\beta` controls the influence of of :math:`\eta_{xy}`. Water is pretty undesirable to an agent without gills!
+And :math:`\eta_{xy}` is the desirability of a state transition between :math:`x` and :math:`y` (a priori knowledge of the states), and :math:`0<\beta` controls the influence of of :math:`\eta_{xy}`.
 
 More on this soon...
