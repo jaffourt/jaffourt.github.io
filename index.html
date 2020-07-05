@@ -10,7 +10,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://www.josefaffourtit.com/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/a-cool-algorithm/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/hello-world/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -60,51 +60,7 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/a-cool-algorithm/" class="u-url">A cool algorithm</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Josef Affourtit
-            </span></p>
-            <p class="dateline">
-            <a href="posts/a-cool-algorithm/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-06-30T11:39:35-04:00" itemprop="datePublished" title="2020-06-30 11:39">2020-06-30 11:39</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<pre class="code python"><a name="rest_code_9984d21cc3d04a68b2624bc4be1c628e-1"></a><span class="n">procedure</span> <span class="n">ACO_MetaHeuristic</span> <span class="ow">is</span>
-<a name="rest_code_9984d21cc3d04a68b2624bc4be1c628e-2"></a>    <span class="k">while</span> <span class="n">not_termination</span> <span class="n">do</span>
-<a name="rest_code_9984d21cc3d04a68b2624bc4be1c628e-3"></a>        <span class="n">generateSolutions</span><span class="p">()</span>
-<a name="rest_code_9984d21cc3d04a68b2624bc4be1c628e-4"></a>        <span class="n">daemonActions</span><span class="p">()</span>
-<a name="rest_code_9984d21cc3d04a68b2624bc4be1c628e-5"></a>        <span class="n">pheromoneUpdate</span><span class="p">()</span>
-<a name="rest_code_9984d21cc3d04a68b2624bc4be1c628e-6"></a>    <span class="n">repeat</span>
-<a name="rest_code_9984d21cc3d04a68b2624bc4be1c628e-7"></a><span class="n">end</span> <span class="n">procedure</span>
-</pre>
-<p>The pheromoneUpdate() updates the environment, which optimizes other agents ability to solve some problem in said environment. The agents evaluate potential solutions, or rather perform an action governed by a probabilty distribution across available states.</p>
-<div class="math">
-\begin{equation*}
-p^{k}_{xy} = \frac{(\tau^{\alpha}_{xy})(\eta^{\beta}_{xy})}{\sum_{z \in allowed_{x}}{(\tau^{\alpha}_{xy})(\eta^{\beta}_{xy})}}
-\end{equation*}
-</div>
-<p>Where <span class="math">\(\tau_{xy}\)</span> is the amount of pheromone between two states, <span class="math">\(x\)</span> and <span class="math">\(y\)</span>, and <span class="math">\(0&lt;\alpha\)</span> controls the influence of of <span class="math">\(\tau_{xy}\)</span>.</p>
-<p>And <span class="math">\(\eta_{xy}\)</span> is the desirability of a state transition between <span class="math">\(x\)</span> and <span class="math">\(y\)</span> (a priori knowledge of the states), and <span class="math">\(0&lt;\beta\)</span> controls the influence of of <span class="math">\(\eta_{xy}\)</span>.</p>
-<p>More on this soon...</p>
-</div>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/my-favorite-checkmate/" class="u-url">My favorite checkmate!</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Josef Affourtit
-            </span></p>
-            <p class="dateline">
-            <a href="posts/my-favorite-checkmate/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-06-29T19:18:25-04:00" itemprop="datePublished" title="2020-06-29 19:18">2020-06-29 19:18</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <img alt="/images/board.gif" src="images/board.gif" style="width: 200px;">
-</div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/hello-world/" class="u-url">Hello World!</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/hello-world/" class="u-url">Hello World!</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Josef Affourtit
@@ -124,11 +80,9 @@ p^{k}_{xy} = \frac{(\tau^{\alpha}_{xy})(\eta^{\beta}_{xy})}{\sum_{z \in allowed_
 
 
 
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
-        MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
-        </script>
-</div>
+
+
+        </div>
         <!--End of body content-->
 
         <footer id="footer">
