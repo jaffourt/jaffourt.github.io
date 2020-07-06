@@ -9,8 +9,8 @@
 
 
 .. image:: /portfolio/profile.png
-   :height: 440
-   :width: 326
+   :height: 326
+   :width: 440
    :scale: 50
    :alt: it's me josef!
 
