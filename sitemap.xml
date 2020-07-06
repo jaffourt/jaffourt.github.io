@@ -7,15 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://www.josefaffourtit.com/</loc>
-  <lastmod>2020-07-06T16:25:00Z</lastmod>
- </url>
- <url>
-  <loc>https://www.josefaffourtit.com/2020/</loc>
-  <lastmod>2020-06-06T13:33:00Z</lastmod>
+  <lastmod>2020-07-06T16:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.josefaffourtit.com/archive.html</loc>
-  <lastmod>2020-07-06T16:25:00Z</lastmod>
+  <lastmod>2020-07-06T16:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.josefaffourtit.com/blog/</loc>
@@ -26,16 +22,16 @@
   <lastmod>2020-06-06T13:25:00Z</lastmod>
  </url>
  <url>
+  <loc>https://www.josefaffourtit.com/cv/</loc>
+  <lastmod>2020-07-06T16:32:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://www.josefaffourtit.com/galleries/</loc>
   <lastmod>2020-06-06T13:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.josefaffourtit.com/listings/</loc>
   <lastmod>2020-06-06T13:25:00Z</lastmod>
- </url>
- <url>
-  <loc>https://www.josefaffourtit.com/pages/</loc>
-  <lastmod>2020-07-06T16:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://www.josefaffourtit.com/pages/cv/</loc>
@@ -46,7 +42,11 @@
   <lastmod>2020-06-06T15:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.josefaffourtit.com/posts/hello-world/</loc>
-  <lastmod>2020-06-06T13:33:00Z</lastmod>
+  <loc>https://www.josefaffourtit.com/posts/</loc>
+  <lastmod>2020-07-06T16:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.josefaffourtit.com/projects/</loc>
+  <lastmod>2020-07-06T16:32:00Z</lastmod>
  </url>
 </urlset>
