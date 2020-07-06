@@ -1,12 +1,11 @@
-.. title: Hello World!
-.. slug: hello-world
-.. date: 2020-06-06 09:31:05 UTC-04:00
+.. title: index
+.. slug: index
+.. date: 2020-07-06 12:24:34 UTC-04:00
 .. tags: 
 .. category: 
 .. link: 
 .. description: 
 .. type: text
-
 
 .. image:: /portfolio/profile.png
    :height: 326
