@@ -7,4 +7,9 @@
 .. description: 
 .. type: text
 
+
+.. image:: /portfolio/profile.png
+
 Hello World! My name is Josef Affourtit and I am currently a research associate at MIT in Ev Fedorenko's group. My primary academic interests include physics, neuroscience, cognition, language, and ML.
+
+.. image:: /portfolio/profile.png
