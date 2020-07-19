@@ -9,4 +9,4 @@
 
 Here is my cv (created using: `Awesome-CV <https://github.com/posquit0/Awesome-CV>`__).
 
-... image:: /portfolio/resume.png
+Intially left blank.. updated CV coming soon!
