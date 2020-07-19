@@ -7,6 +7,6 @@
 .. description: 
 .. type: text
 
-Here is my cv (created using: `Awesome-CV <https://github.com/posquit0/Awesome-CV>`__).
-
-Intially left blank.. updated CV coming soon!
+My current CV can be downloaded `here <https://www.josefaffourtit.com/portfolio/Affourtit_July2020_CV.pdf>`__
+   
+(created using: `Awesome-CV <https://github.com/posquit0/Awesome-CV>`__)
