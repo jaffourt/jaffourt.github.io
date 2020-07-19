@@ -7,7 +7,8 @@
 .. description: 
 .. type: text
 .. has_math: true
-   
+.. hidetitle: true
+.. password: true
 Optimal Adversarial Location and Pathway Estimation Using Remotely Sensed Spectral-Terrain Data: A Graphical Modeling Approach
 
 1. First we attempt to reduce dimensionality by eliminating redundant noise in the HSI image. The primary method employed was PCA.
@@ -26,4 +27,4 @@ Optimal Adversarial Location and Pathway Estimation Using Remotely Sensed Spectr
    
 3. OC
 
-Unfortunately the final report cannot be shared publicly, but a draft of a technical report describing these methods can be downloaded `here <https://www.josefaffourtit.com/portfolio/Affourtit_RR_2017.pdf>`__
+Unfortunately the final report cannot be shared publicly, but a draft of a technical report describing these methods can be downloaded `here <https://www.josefaffourtit.com/portfolio/Affourtit_RR_2017.pdf>`__.
