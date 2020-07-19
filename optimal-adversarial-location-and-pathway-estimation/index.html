@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>optimal-adversarial-location-and-pathway-estimation | Josef Affourtit</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
+<link rel="canonical" href="https://www.josefaffourtit.com/optimal-adversarial-location-and-pathway-estimation/">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="Josef Affourtit">
+<meta property="og:site_name" content="Josef Affourtit">
+<meta property="og:title" content="optimal-adversarial-location-and-pathway-estimation">
+<meta property="og:url" content="https://www.josefaffourtit.com/optimal-adversarial-location-and-pathway-estimation/">
+<meta property="og:description" content="First we attempt to reduce dimensionality by eliminating redundant noise in the HSI image. The primary method employed was PCA.
+
+\begin{equation*}
+\mathbf{T}_L = \mathbf{X} \mathbf{W}_L
+\end{equation*">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-07-18T16:51:31-04:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.josefaffourtit.com/">
+
+                <span id="blog-title">Josef Affourtit</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../cv/">CV</a>
+                </li>
+<li>
+<a href="../projects/">Projects</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.rst" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">optimal-adversarial-location-and-pathway-estimation</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<ol class="arabic">
+<li>
+<p>First we attempt to reduce dimensionality by eliminating redundant noise in the HSI image. The primary method employed was PCA.</p>
+<div class="math">
+\begin{equation*}
+\mathbf{T}_L = \mathbf{X} \mathbf{W}_L
+\end{equation*}
+</div>
+<p>Keeping only the first <span class="math">\(L\)</span> principal components, produced by using only the first <span class="math">\(L\)</span> eigenvectors. We attempt to classify using <span class="math">\(L=7\)</span>.</p>
+</li>
+<li>
+<p>We then attempt to reduce dimensionality by searching for a spectral dictionary of linearly independent signals using a novel algorithm ATGP, which performs an orthogonal subspace projection on the raw HSI data. ATGP attempts to define each pixel <span class="math">\(\mathbf{Y}\)</span> as the following:</p>
+<div class="math">
+\begin{equation*}
+\mathbf{Y}=a_0 P_0+a_1 P_1+...+a_n P_n
+\end{equation*}
+</div>
+<p>We then iteratively create a spectral dictionary from the most abundant spectrally distinct signals in each pixel, constrained to some number of targets <span class="math">\(T=7\)</span>.</p>
+</li>
+<li><p>OC</p></li>
+</ol>
+<p>Unfortunately the final report cannot be shared publicly, but a draft of a technical report describing these methods can be downloaded <a class="reference external" href="https://www.josefaffourtit.com/portfolio/Affourtit_RR_2017.pdf">here</a></p>
+</div>
+    </div>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
+        </script></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:jaffourt@mit.edu">Josef Affourtit</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>
