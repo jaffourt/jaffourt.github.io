@@ -11,9 +11,10 @@
 .. class:: col-md-2
 
 .. image:: /portfolio/profile.png
-	:height: 326
-	:width: 440
+        :height: 326
+        :width: 440
         :scale: 50
         :alt: it's me josef!
+
 
 Hello World! My name is Josef Affourtit and I am currently a research associate at MIT in Ev Fedorenko's group. My primary academic interests include physics, neuroscience, cognition, language, and ML.
