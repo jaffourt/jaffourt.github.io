@@ -6,7 +6,7 @@
 .. link: 
 .. description: 
 .. type: text
-
+.. hidetitle: true
 .. class:: col-md-2
 
 .. image:: /portfolio/profile.png
