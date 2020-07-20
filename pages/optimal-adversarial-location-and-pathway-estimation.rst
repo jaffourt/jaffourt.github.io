@@ -1,4 +1,4 @@
-.. title: 
+.. title: Optimal Adversarial Location and Pathway Estimation
 .. slug: optimal-adversarial-location-and-pathway-estimation
 .. date: 2020-07-18 16:51:31 UTC-04:00
 .. tags: 
