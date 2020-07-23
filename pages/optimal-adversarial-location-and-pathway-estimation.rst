@@ -27,4 +27,4 @@ Optimal Adversarial Location and Pathway Estimation Using Remotely Sensed Spectr
    
 3. OC
 
-Unfortunately the final report cannot be shared publicly, but a draft of a technical report describing these methods can be downloaded `here <https://www.josefaffourtit.com/portfolio/Affourtit_RR_2017.pdf>`__.
+Unfortunately the final report cannot be shared publicly
