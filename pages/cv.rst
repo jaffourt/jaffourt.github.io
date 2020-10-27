@@ -7,6 +7,6 @@
 .. description: 
 .. type: text
 
-My current CV can be downloaded `here <https://www.josefaffourtit.com/portfolio/Affourtit_Sept2020_CV.pdf>`__.
+My current CV can be downloaded `here <https://www.josefaffourtit.com/portfolio/Affourtit_CV_2020.pdf>`__.
    
 (created using: `Awesome-CV <https://github.com/posquit0/Awesome-CV>`__)
